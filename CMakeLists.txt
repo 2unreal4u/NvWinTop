@@ -17,6 +17,7 @@ set(SOURCES
     src/gpu_monitor.cpp
     src/graph_renderer.cpp
     src/window.cpp
+    res/resource.rc
 )
 
 # Add header files

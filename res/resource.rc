@@ -1,0 +1,34 @@
+#include <windows.h>
+
+// Use custom icon
+IDI_ICON1               ICON                    "nvwintop.ico"
+
+// Version Info
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS__WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "NvWinTop"
+            VALUE "FileDescription",  "GPU Monitoring Tool"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "NvWinTop"
+            VALUE "LegalCopyright",   "MIT License"
+            VALUE "OriginalFilename", "NvWinTop.exe"
+            VALUE "ProductName",      "NvWinTop"
+            VALUE "ProductVersion",   "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
